@@ -1,4 +1,4 @@
-# Data Directory
+﻿# Data Directory
 
 This directory stores dataset files used in the IMV customer segmentation project.
 
@@ -24,4 +24,21 @@ The raw dataset is not committed to Git because it can be large and should be re
 - `olist_order_reviews_dataset.csv`
 - `olist_products_dataset.csv`
 
+## Optional Files
+
+The following files may be used if they add clear value to the analysis:
+
+- `olist_products_dataset.csv`
+- `product_category_name_translation.csv`
+- `olist_geolocation_dataset.csv`
+- `olist_sellers_dataset.csv`
+
+Optional files should only be included in the analysis when they support the customer segmentation objective. Do not add tables just to make the project look complex.
+
 ## Data Usage Note
+
+The repository documents the dataset source, project structure, analysis workflow, and modeling steps. The original Kaggle CSV files stay local in `data/raw/` and are ignored by Git.
+
+To reproduce the project, download the Olist dataset from Kaggle, extract the required CSV files, and place them in `data/raw/` using the original filenames. The notebook will read the files from that local folder.
+
+Do not rename the raw CSV files unless the notebook and documentation are updated consistently.

@@ -1,4 +1,4 @@
-# Python cache
+﻿# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,11 +14,14 @@ env/
 # Local data
 data/raw/
 data/interim/
-data/processed/*.csv
-data/processed/*.parquet
+data/processed/
+*.csv
+*.xlsx
+*.parquet
 *.zip
 
 # Logs and temporary files
+logs/
 *.log
 *.tmp
 *.bak
