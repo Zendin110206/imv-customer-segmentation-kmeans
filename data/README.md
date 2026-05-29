@@ -5,13 +5,20 @@ This directory stores dataset files used in the IMV customer segmentation projec
 ## Dataset Source
 
 Dataset: Olist Brazilian E-Commerce Public Dataset  
-Source: <https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce>
+Source: <https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce>  
+Kaggle slug: `olistbr/brazilian-ecommerce`
 
 ## Raw Data
 
-Raw CSV files should be downloaded manually from Kaggle and placed inside:
+Raw CSV files should be downloaded from Kaggle and placed inside:
 
 `data/raw/`
+
+Recommended terminal command:
+
+```powershell
+.\.venv\Scripts\kaggle.exe datasets download -d olistbr/brazilian-ecommerce -p .\data\raw --unzip
+```
 
 The raw dataset is not committed to Git because it can be large and should be retrieved from the original source.
 
@@ -28,7 +35,6 @@ The raw dataset is not committed to Git because it can be large and should be re
 
 The following files may be used if they add clear value to the analysis:
 
-- `olist_products_dataset.csv`
 - `product_category_name_translation.csv`
 - `olist_geolocation_dataset.csv`
 - `olist_sellers_dataset.csv`

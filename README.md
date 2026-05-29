@@ -41,4 +41,4 @@ K-Means Clustering.
 
 ## Project Status
 
-Project foundation initialized. Data analysis and modeling will be added in the next checkpoints.
+Project foundation and dataset acquisition documentation are prepared. The next checkpoint will inspect the raw Olist tables and identify data quality issues before feature engineering and clustering.
