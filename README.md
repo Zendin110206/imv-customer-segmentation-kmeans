@@ -4,11 +4,11 @@ Customer segmentation project using K-Means Clustering on the Olist Brazilian E-
 
 ## Project Status
 
-This project is currently in the model evaluation and cluster interpretation phase.
+This project has completed the main modeling workflow and the HackMD coding documentation draft.
 
-The project foundation, dataset acquisition, raw data inspection, customer-level feature engineering, preprocessing, and K-Means model evaluation have been prepared. The current modeling checkpoint produces a four-segment customer clustering result supported by clustering metrics, business interpretation, documentation tables, and visualization reports.
+The project foundation, dataset acquisition, raw data inspection, customer-level feature engineering, preprocessing, K-Means model evaluation, segment interpretation, report tables, visualization outputs, and HackMD documentation draft have been prepared. The current modeling result produces a four-segment customer clustering solution supported by clustering metrics, business interpretation, documentation tables, and visualization reports.
 
-The next checkpoints will focus on final HackMD documentation, presentation slides, and video presentation preparation.
+The remaining private submission tasks are final HackMD publishing, final presentation slides, video presentation recording, and final submission links.
 
 ## Assignment Context
 
@@ -143,7 +143,14 @@ The current evaluation uses:
 │   ├── processed/
 │   └── raw/
 ├── docs/
-│   └── kmeans_evaluation_summary.md
+│   ├── dataset_source.md
+│   ├── data_dictionary.md
+│   ├── raw_data_audit.md
+│   ├── feature_engineering_summary.md
+│   ├── preprocessing_summary.md
+│   ├── kmeans_evaluation_summary.md
+│   ├── hackmd_documentation_draft.md
+│   └── project_notes.md
 ├── notebooks/
 │   ├── 01_raw_data_inspection.ipynb
 │   ├── 02_customer_feature_engineering.ipynb
@@ -246,7 +253,14 @@ The executed notebook copies in `reports/executed_notebooks/` are validation art
 
 Current project documentation:
 
+- [Dataset Source](docs/dataset_source.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Raw Data Audit](docs/raw_data_audit.md)
+- [Feature Engineering Summary](docs/feature_engineering_summary.md)
+- [Preprocessing Summary](docs/preprocessing_summary.md)
 - [K-Means Evaluation Summary](docs/kmeans_evaluation_summary.md)
+- [HackMD Documentation Draft](docs/hackmd_documentation_draft.md)
+- [Project Notes](docs/project_notes.md)
 - [K-Means Evaluation Metrics Table](reports/tables/kmeans_evaluation_metrics.md)
 - [Customer Segment Profiles Table](reports/tables/customer_segment_profiles.md)
 - [Segment Interpretation Table](reports/tables/segment_interpretation.md)
@@ -262,7 +276,7 @@ Current generated figures:
 - `reports/figures/customer_segments_pca_3d.png`
 - `reports/figures/customer_segment_profile_heatmap.png`
 
-HackMD documentation, presentation slides, and video presentation will be prepared in the next checkpoints.
+The HackMD documentation draft is prepared in `docs/hackmd_documentation_draft.md`. Final presentation slides and video files are intentionally kept outside the public repository until they are finalized for submission.
 
 ## Deliverables
 
@@ -280,7 +294,8 @@ Current repository checkpoint:
 - preprocessing and feature validation are prepared,
 - K-Means model evaluation and segment interpretation are prepared,
 - visual report figures are prepared,
-- Markdown summary tables are prepared.
+- Markdown summary tables are prepared,
+- HackMD coding documentation draft is prepared.
 
 ## Important Limitations
 

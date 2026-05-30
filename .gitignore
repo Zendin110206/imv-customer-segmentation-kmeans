@@ -10,6 +10,7 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+reports/executed_notebooks/
 
 # Local data
 data/raw/
@@ -25,6 +26,9 @@ logs/
 *.log
 *.tmp
 *.bak
+
+# Private/local deliverable drafts
+deliverables/
 
 # OS/editor files
 .DS_Store
