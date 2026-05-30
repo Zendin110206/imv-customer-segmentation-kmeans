@@ -4,11 +4,11 @@ Customer segmentation project using K-Means Clustering on the Olist Brazilian E-
 
 ## Project Status
 
-This project has completed the main modeling workflow and the HackMD coding documentation draft.
+This project has completed the main modeling workflow and the HackMD coding documentation.
 
-The project foundation, dataset acquisition, raw data inspection, customer-level feature engineering, preprocessing, K-Means model evaluation, segment interpretation, report tables, visualization outputs, and HackMD documentation draft have been prepared. The current modeling result produces a four-segment customer clustering solution supported by clustering metrics, business interpretation, documentation tables, and visualization reports.
+The project foundation, dataset acquisition, raw data inspection, customer-level feature engineering, preprocessing, K-Means model evaluation, segment interpretation, report tables, visualization outputs, and HackMD documentation have been prepared. The current modeling result produces a four-segment customer clustering solution supported by clustering metrics, business interpretation, documentation tables, and visualization reports.
 
-The remaining private submission tasks are final HackMD publishing, final presentation slides, video presentation recording, and final submission links.
+The repository is focused on source code, notebooks, documentation, and generated analysis reports. Presentation slides and video presentation files are managed as external submission deliverables through Google Drive, not as tracked repository files.
 
 ## Assignment Context
 
@@ -253,13 +253,14 @@ The executed notebook copies in `reports/executed_notebooks/` are validation art
 
 Current project documentation:
 
+- [Public HackMD Documentation](https://hackmd.io/@la0gvScEQh6r7vRA0yUHrw/H1gDrhOxfx)
 - [Dataset Source](docs/dataset_source.md)
 - [Data Dictionary](docs/data_dictionary.md)
 - [Raw Data Audit](docs/raw_data_audit.md)
 - [Feature Engineering Summary](docs/feature_engineering_summary.md)
 - [Preprocessing Summary](docs/preprocessing_summary.md)
 - [K-Means Evaluation Summary](docs/kmeans_evaluation_summary.md)
-- [HackMD Documentation Draft](docs/hackmd_documentation_draft.md)
+- [HackMD Documentation Markdown Source](docs/hackmd_documentation_draft.md)
 - [Project Notes](docs/project_notes.md)
 - [K-Means Evaluation Metrics Table](reports/tables/kmeans_evaluation_metrics.md)
 - [Customer Segment Profiles Table](reports/tables/customer_segment_profiles.md)
@@ -276,7 +277,9 @@ Current generated figures:
 - `reports/figures/customer_segments_pca_3d.png`
 - `reports/figures/customer_segment_profile_heatmap.png`
 
-The HackMD documentation draft is prepared in `docs/hackmd_documentation_draft.md`. Final presentation slides and video files are intentionally kept outside the public repository until they are finalized for submission.
+The public HackMD documentation is available at <https://hackmd.io/@la0gvScEQh6r7vRA0yUHrw/H1gDrhOxfx>. The Markdown source is also kept in `docs/hackmd_documentation_draft.md` so the documentation can be reviewed from the repository.
+
+Presentation slides and video presentation files are handled as external submission deliverables through Google Drive. They are not tracked in this repository because they are final submission assets rather than reproducible analysis source files.
 
 ## Deliverables
 
@@ -295,7 +298,7 @@ Current repository checkpoint:
 - K-Means model evaluation and segment interpretation are prepared,
 - visual report figures are prepared,
 - Markdown summary tables are prepared,
-- HackMD coding documentation draft is prepared.
+- HackMD coding documentation is prepared.
 
 ## Important Limitations
 

@@ -534,11 +534,10 @@ Dokumentasi pendukung di repository:
 - <https://github.com/Zendin110206/imv-customer-segmentation-kmeans/blob/main/docs/preprocessing_summary.md>
 - <https://github.com/Zendin110206/imv-customer-segmentation-kmeans/blob/main/docs/kmeans_evaluation_summary.md>
 
-Link final untuk pengumpulan:
+File pendukung final:
 
-```text
-Link HackMD public: gunakan link halaman HackMD ini setelah permission diset public-readable.
-Link PPT: akan ditambahkan setelah file PPT final tersedia.
-Link Video Presentasi: akan ditambahkan setelah video final tersedia.
-Link Google Drive folder/file pendukung: akan ditambahkan jika final deliverables diunggah ke Google Drive.
-```
+| Deliverable | Akses |
+| --- | --- |
+| PPT Presentasi | Akan tersedia di folder Google Drive pengumpulan. |
+| Video Presentasi | Akan tersedia di folder Google Drive pengumpulan. |
+| Folder Google Drive | Akan ditambahkan setelah folder final dibuat dan aksesnya sudah dapat dibuka oleh reviewer. |
