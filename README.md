@@ -41,4 +41,4 @@ K-Means Clustering.
 
 ## Project Status
 
-Project foundation, dataset acquisition, raw data inspection, and customer-level feature engineering are prepared. The next checkpoint will validate engineered features, handle missing values and skewed distributions, and prepare the feature matrix for K-Means clustering.
+Project foundation, dataset acquisition, raw data inspection, customer-level feature engineering, and preprocessing are prepared. The next checkpoint will compare K-Means cluster counts and evaluate clustering quality.
