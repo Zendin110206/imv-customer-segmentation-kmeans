@@ -1,4 +1,4 @@
-# IMV Customer Segmentation with K-Means
+﻿# IMV Customer Segmentation with K-Means
 
 This repository contains an individual Machine Learning assignment for IMV Recruitment 2026.
 
@@ -41,4 +41,4 @@ K-Means Clustering.
 
 ## Project Status
 
-Project foundation and dataset acquisition documentation are prepared. The next checkpoint will inspect the raw Olist tables and identify data quality issues before feature engineering and clustering.
+Project foundation, dataset acquisition, and raw data inspection are prepared. The next checkpoint will define cleaning rules and build customer-level behavior features before K-Means clustering.
